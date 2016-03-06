@@ -1,0 +1,49 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-default {
+  background-color: #385f70;
+}
+
+a {
+  color: white !important;
+}
+
+.active>a {
+  background-color: #c0d6e4 !important;
+  color: white !important;
+}
+
+.icon-bar {
+  background-color: white !important;
+}
+
+.navbar-toggle:hover {
+  background-color: #c0d6e4 !important;
+}
+
+#home {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  background-image: url('../assets/img/silicon_valley.jpg');
+}
+
+#home-content > h1 {
+  margin-top: 15%;
+}
+
+.social-links > a > img{
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 700px) {
+  #home-content > h1 {
+    margin-top: 50%;
+  }
+}
